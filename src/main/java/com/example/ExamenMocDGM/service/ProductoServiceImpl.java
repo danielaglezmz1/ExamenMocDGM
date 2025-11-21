@@ -1,3 +1,12 @@
+package com.example.ExamenMocDGM.service;
+
+import com.example.ExamenMocDGM.entity.Producto;
+import com.example.ExamenMocDGM.repository.ProductoRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.*;
+@Service
 public class ProductoServiceImpl implements ProductoService {
 
     @Autowired

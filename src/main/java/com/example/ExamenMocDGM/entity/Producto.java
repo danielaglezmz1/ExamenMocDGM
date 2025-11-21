@@ -1,4 +1,9 @@
-package com.example.ExamenMocDGM.controller;
+package com.example.ExamenMocDGM.entity;
+
+import jakarta.persistence.*;
+import lombok.*;
+
+import java.time.LocalDate;
 
 @Data
 @AllArgsConstructor
